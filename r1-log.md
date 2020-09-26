@@ -2,4 +2,12 @@
 
 The log of my #100DaysOfCode challenge. Started on [SEPTEMBER 26, 2020].
 
+**September 26/2020 time: 21:59 IST**:
+
+Today i successfully attempted 4 out of 5 questions (5th question took help from internet) of JavaScript Algorithms and Data Structures certification in freecodecamp.org.
+After submission i have succesfully recieved certificate from the same on for the same:
+LINK: https://www.freecodecamp.org/certification/wrangleezian/javascript-algorithms-and-data-structures
+I am thankful and happy for my todays achievement in the run #100daysofcode
+
+
 ## Log
