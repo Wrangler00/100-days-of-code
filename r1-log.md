@@ -9,12 +9,12 @@ After submission i have succesfully recieved certificate from the same on for th
 LINK: https://www.freecodecamp.org/certification/wrangleezian/javascript-algorithms-and-data-structures
 I am thankful and happy for my todays achievement in the run #100daysofcode
 
-**September 27/2020 ** 
+**September 27/2020** :
 
 I completed all es6 exercies in JS course and also learned and implemented most of regex exercises ,learned a lot this day.
 [NOTE: this log is added on 29sep as i forgot to add log on that day].
 
-**September 28/2020 ** 
+**September 28/2020** :
 
 Today i completed all OOPS exercises in javsscript course by myself and learned few things.
 
