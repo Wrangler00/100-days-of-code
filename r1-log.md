@@ -18,4 +18,8 @@ I completed all es6 exercies in JS course and also learned and implemented most 
 
 Today i completed all OOPS exercises in javsscript course by myself and learned few things.
 
+
+**October 3/2020 1:30 am**
+
+Today i completed Debug course of Javascript freecodeorg
 ## Log
