@@ -22,4 +22,9 @@ Today i completed all OOPS exercises in javsscript course by myself and learned 
 **October 3/2020 1:30 am**
 
 Today i completed Debug course of Javascript freecodeorg
+
+**October 4/2020 2:52 pm**
+
+I worked on  intermediate js algorithms and sucesfully completde many problems from it
+
 ## Log
