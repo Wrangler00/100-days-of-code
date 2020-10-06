@@ -27,4 +27,9 @@ Today i completed Debug course of Javascript freecodeorg
 
 I worked on  intermediate js algorithms and sucesfully completde many problems from it
 
+
+**October 7/2020 3:35 am**
+
+I worked on some more intermediate js algorithms and sucesfully completed that problems.
+
 ## Log
