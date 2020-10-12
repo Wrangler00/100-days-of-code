@@ -32,4 +32,7 @@ I worked on  intermediate js algorithms and sucesfully completde many problems f
 
 I worked on some more intermediate js algorithms and sucesfully completed that problems.
 
+**October 13/2020 3:35 am**
+
+I worked on intermediate js algorithms and completed that section completely and successfully
 ## Log
