@@ -35,4 +35,8 @@ I worked on some more intermediate js algorithms and sucesfully completed that p
 **October 13/2020 3:35 am**
 
 I worked on intermediate js algorithms and completed that section completely and successfully
+
+**October 15/2020 3:31 am**
+
+I completed js topic Basic data structures and Internedaite algorhitm scripting successfully.
 ## Log
