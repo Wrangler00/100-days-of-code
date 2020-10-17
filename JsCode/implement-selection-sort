@@ -1,0 +1,35 @@
+//selection sort
+//link: https://www.freecodecamp.org/learn/coding-interview-prep/algorithms/implement-selection-sort
+
+function swap(arr,i,j){
+  if(i!=j){
+    let tmp = arr[i];
+    arr[i] = arr[j];
+    arr[j] = tmp;
+  }
+}
+
+function selectionSort(array) {
+  // Only change code below this line
+  let minn = {val:-1,ind:-1};
+  let len = array.length;
+
+  for(let i=0;i<len;i++){
+    minn.val = array[i];
+    minn.ind = i;
+
+    for(let j=i+1;j<len;j++){
+      if(array[j]<minn.val){
+        minn.val = array[j];
+        minn.ind = j;
+      }
+    }
+
+    swap(array,i,minn.ind);
+  }
+  return array;
+  // Only change code above this line
+}
+
+
+console.log(selectionSort([1, 4, 2, 8, 345, 123, 43, 32, 5643, 63, 123, 43, 2, 55, 1, 234, 92]))
