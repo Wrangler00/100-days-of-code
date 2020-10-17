@@ -1,0 +1,21 @@
+//link:  https://www.freecodecamp.org/learn/coding-interview-prep/algorithms/no-repeats-please
+Return the number of total permutations of the provided string that don't have repeated consecutive letters. Assume that all characters in the provided string are each unique.
+
+For example, aab should return 2 because it has 6 total permutations (aab, aab, aba, aba, baa, baa), but only 2 of them (aba and aba) don't have the same letter (in this case a) repeating.
+
+const permutations = arr => {
+  if (arr.length <= 2) return arr.length === 2 ? [arr, [arr[1], arr[0]]] : arr;
+  return arr.reduce(
+    (acc, item, i) =>
+      acc.concat(
+        permutations([...arr.slice(0, i), ...arr.slice(i + 1)]).map(val => [item, ...val])
+      ),
+    []
+  );
+};
+
+function permAlone(str) {
+  return str.length==1?1:permutations(str.split("")).filter(i=>i.every((j,ind)=>!ind?true:(j.localeCompare(i[ind-1])))).length;
+}
+
+console.log(permAlone('abcdefa'));
