@@ -1,0 +1,29 @@
+//link: https://www.freecodecamp.org/learn/coding-interview-prep/project-euler/problem-6-sum-square-difference
+
+//my solution O(n)
+
+function sumSquareDifference(n) {
+  let sosq=0,sqos=0;
+
+  for(let i=1;i<=n;i++){
+    sosq+=(i*i);
+    sqos+=i;
+  }
+  return (sqos*sqos)-sosq;
+}
+
+console.log(sumSquareDifference(100));
+
+
+//better solution using formula O(1)
+
+sum of n natural numbers = (n*(n+1))/2
+sum of squares of n natural numbers = (n*(n+1)*(2*n+1))/6
+
+function sumSquareDifference(n) {
+  const sumOfN = (n*(n+1))/2;
+  const sumOfNSquare = (n*(n+1)*(2*n+1))/6;
+  
+  //** is exponentaial operator added in ES7, it's equivalent to Math.pow(num, 2)`
+  return (sumOfN ** 2) - sumOfNSquare;
+}
